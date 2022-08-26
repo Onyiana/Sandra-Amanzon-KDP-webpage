@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     font-family: 'Lato', sans-serif;
     line-height: 1.6;
+    overflow-x: hidden;
 }
 
 a {
@@ -131,6 +132,9 @@ ul{
 .finalSection {
     text-align: center;
     padding: 40px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .finalSection p {
@@ -148,5 +152,68 @@ ul{
     color: #fff;
     font-size: 18px;
     cursor: pointer;
+}
+
+@media screen and (max-width:992px) {
+    #homeSection {
+        width: 80%;
+    }
+
+    .firstSection {
+        width: 80%;
+    }
+
+    .secondPage {
+        width: 90%;
+    }
+
+    .finalSection p {
+       font-size: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #homeSection {
+        width: 90%;
+    }
+
+    .firstSection {
+        width: 90%;
+    }
+
+    .secondPage {
+        width: 100%;
+    }
+
+    .thirdPageImage {
+        flex-direction: column;
+    }
+
+    .thirdPageImage {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    #homeSection h3{
+        font-size: 25px;
+    }
+
+    .secondPage {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .finalSection {
+        width: 95% ;
+    }
+
+    .finalSection p {
+        font-size: 17px;
+    }
+
+    .thirdPage {
+       margin-top: 50px;
+    }
 }
 
