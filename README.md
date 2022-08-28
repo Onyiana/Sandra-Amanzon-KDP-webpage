@@ -1,2 +1,2 @@
 AMAZON KDP
-https://sandras-affiliate-markting.netlify.app
+https://sandra-affiliate-amazonkdp.netlify.app
